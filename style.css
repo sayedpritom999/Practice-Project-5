@@ -1,0 +1,126 @@
+#navbarNavAltMarkup a {
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+    margin-right: 20px;
+}
+.carousel-info p{
+    color: gray;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buy-now {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.arrow {
+    margin-left: 10px;
+}
+
+.carousel-indicators li {
+
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: gray;
+    opacity: .3;
+    transition: opacity .6s ease-in-out;
+    border-radius: 100px;
+    border-radius: 100px;
+    border: 0;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 40px;
+    background-image: linear-gradient(to left, rgb(255, 192, 75), orange);
+}
+
+.carousel-indicators {
+    top: 600px;
+}
+
+#products {
+    margin-top: 100px;
+}
+
+.card-footer{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.card-img-top {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.card p {
+    color: gray
+}
+.card h5 {
+    margin-bottom: 20px;
+}
+.card {
+    box-shadow: 5px 5px 10px rgb(233, 233, 233);
+    border: none;
+    border-radius: 10px;
+}
+.product-name {
+    margin-bottom: 30px;
+}
+.see-all {
+    color: orange;
+}
+#laptop {
+    margin-top: 80px;
+}
+.bottom-line {
+    width: 100px;
+    height: 6px;
+    background-image: linear-gradient(to right, rgb(255, 181, 44), orange);
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.catagories {
+    margin-top: 170px;
+}
+.items {
+  
+    box-shadow: 5px 5px 10px lightgrey;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.items img {
+    width: 40%;
+    height: auto;
+    margin: 45px 35px;
+}
+
+.items h6 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+#shoes {
+    margin-bottom: 0;
+}
+.beauty {
+    margin-bottom: 30px;
+}
+.product-catagories {
+    margin-bottom: 100px;
+}
